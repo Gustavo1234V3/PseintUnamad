@@ -1,0 +1,24 @@
+Algoritmo Valor_para_P
+    Definir a, b, z, P Como Real
+    
+    Escribir "Ingrese el valor de a: "
+    Leer a
+    
+    Escribir "Ingrese el valor de y: "
+    Leer b
+    
+    Escribir "Ingrese el valor de z: "
+    Leer z
+    
+    Si a > b y z < 20 Entonces
+        Escribir "a es mayor que b y z es menor que 20."
+        Escribir "Ingrese un valor para P: "
+        Leer P
+    Sino
+        Escribir "No se cumplen las condiciones especificadas."
+    Fin Si
+    
+    Si P <> 0 Entonces
+        Escribir "El valor ingresado para P es: ", P
+    Fin Si
+FinAlgoritmo
