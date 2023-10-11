@@ -54,25 +54,24 @@ Algoritmo CALCULADORA_BÁSICA
 		FinSi
 	FinSi
 	si seleccionOp=5 Entonces
-		Definir indice, radicando Como real
-
+		Definir radicando Como real
 		escribir "ingrese el radicando"
 		leer radicando
 		Si radicando >= 0 Entonces
-			resultado =raiz(radicando)
-			
+			resultado=  rc(radicando)
 			Escribir "La raíz  de ", radicando, " es igual a ", resultado
 		Sino
 			Escribir "La raíz de un número negativo no es posible en los números reales."
 		FinSi
 	FinSi
+	
 	si seleccionOp= 6 Entonces
-		Escribir "Ingrese el primer número: "
+		Escribir "Ingrese la base: "
 		Leer num1
 		
-		Escribir "Ingrese el segundo número: "
+		Escribir "Ingrese el exponente: "
 		Leer num2
 		resultado = num1 ^ num2
-		Escribir "La potencia de ", num1, " entre ", num2, " es igual a ", resultado
+		Escribir "La potencia de ", num1, " elevado a ", num2, " es igual a ", resultado
 	FinSi
 FinAlgoritmo
