@@ -54,12 +54,15 @@ Algoritmo CALCULADORA_BÁSICA
 		FinSi
 	FinSi
 	si seleccionOp=5 Entonces
-		Definir radicando Como real
+		Definir indice, radicando Como real
+		Escribir "ingrese el indice"
+		leer indice
 		escribir "ingrese el radicando"
 		leer radicando
 		Si radicando >= 0 Entonces
-			resultado=  rc(radicando)
-			Escribir "La raíz  de ", radicando, " es igual a ", resultado
+			resultado = radicando ^ (1 / indice)
+			
+			Escribir "La raíz  de " indice " sobre ", radicando,  " es igual a ", resultado
 		Sino
 			Escribir "La raíz de un número negativo no es posible en los números reales."
 		FinSi
